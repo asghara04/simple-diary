@@ -5,7 +5,7 @@
 		</ion-thumbnail>
 		<ion-label>
 			<h2>{{memory.title}}</h2>
-			<p>{{memory.description.substr(1,40)}}...</p>
+			<p>{{memory.description.substr(0,40)}}...</p>
 		</ion-label>
 	</ion-item>
 </template>
